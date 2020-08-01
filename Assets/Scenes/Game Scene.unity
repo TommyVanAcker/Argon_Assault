@@ -659,42 +659,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 993180591294782205, guid: 9990d8077ec081d458ffb0bca8a7edb0, type: 3}
-      propertyPath: xMinScreenPos
-      value: -16
-      objectReference: {fileID: 0}
-    - target: {fileID: 993180591294782205, guid: 9990d8077ec081d458ffb0bca8a7edb0, type: 3}
-      propertyPath: xMaxScreenPos
-      value: 16
-      objectReference: {fileID: 0}
-    - target: {fileID: 993180591294782205, guid: 9990d8077ec081d458ffb0bca8a7edb0, type: 3}
-      propertyPath: yMinScreenPos
-      value: -12
-      objectReference: {fileID: 0}
-    - target: {fileID: 993180591294782205, guid: 9990d8077ec081d458ffb0bca8a7edb0, type: 3}
-      propertyPath: yMaxScreenPos
-      value: 12
-      objectReference: {fileID: 0}
-    - target: {fileID: 993180591294782205, guid: 9990d8077ec081d458ffb0bca8a7edb0, type: 3}
-      propertyPath: speed
-      value: 23
-      objectReference: {fileID: 0}
-    - target: {fileID: 993180591294782205, guid: 9990d8077ec081d458ffb0bca8a7edb0, type: 3}
-      propertyPath: controlRollFactor
-      value: -20
-      objectReference: {fileID: 0}
-    - target: {fileID: 993180591294782205, guid: 9990d8077ec081d458ffb0bca8a7edb0, type: 3}
-      propertyPath: positionYawFactor
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 993180591294782205, guid: 9990d8077ec081d458ffb0bca8a7edb0, type: 3}
-      propertyPath: controlPitchFactor
-      value: -12
-      objectReference: {fileID: 0}
-    - target: {fileID: 993180591294782205, guid: 9990d8077ec081d458ffb0bca8a7edb0, type: 3}
-      propertyPath: positionPitchFactor
-      value: -2
-      objectReference: {fileID: 0}
     - target: {fileID: 8132474524386497184, guid: 9990d8077ec081d458ffb0bca8a7edb0, type: 3}
       propertyPath: circuitObject
       value: 
@@ -750,10 +714,6 @@ PrefabInstance:
     - target: {fileID: 8132474524386497188, guid: 9990d8077ec081d458ffb0bca8a7edb0, type: 3}
       propertyPath: m_Name
       value: Main Camera
-      objectReference: {fileID: 0}
-    - target: {fileID: 8132474524386497190, guid: 9990d8077ec081d458ffb0bca8a7edb0, type: 3}
-      propertyPath: field of view
-      value: 102
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9990d8077ec081d458ffb0bca8a7edb0, type: 3}
