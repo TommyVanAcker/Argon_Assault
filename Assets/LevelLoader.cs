@@ -33,7 +33,11 @@ public class LevelLoader : MonoBehaviour
     {
         yield return new WaitForSeconds(loadDelay);
         int sceneIndex = SceneManager.GetActiveScene().buildIndex;
-        SceneManager.LoadScene(sceneIndex + 1);
+        if(sceneIndex == 0)
+        {
+            SceneManager.LoadScene(sceneIndex + 1);
+        }
+        
         
     }
 }

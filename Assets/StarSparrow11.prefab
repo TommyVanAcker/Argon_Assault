@@ -99,6 +99,7 @@ GameObject:
   - component: {fileID: 7883225188004756775}
   - component: {fileID: 7862844627864450359}
   - component: {fileID: 7870970141025047769}
+  - component: {fileID: 5855174731209293277}
   m_Layer: 0
   m_Name: StarSparrow11
   m_TagString: Untagged
@@ -113,7 +114,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7884926376018461861}
-  m_LocalRotation: {x: 0.000000021855694, y: 0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 75.87317, y: -6.62, z: 31.199966}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -170,6 +171,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5855174731209293277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7884926376018461861}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aabda8c85a9ae2b4aa79b63d2de108ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7885030244500642385
 GameObject:
   m_ObjectHideFlags: 0
