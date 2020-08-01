@@ -59,7 +59,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 92.8
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -99,7 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   circuitObject: {fileID: 0}
   circuit: {fileID: 0}
-  routeSpeed: 50
+  routeSpeed: 30
   lookAheadDistance: 100
   varyingSpeed: 0
   initialSpeed: 0
@@ -131,11 +131,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5855174731209293277, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
       propertyPath: yMinScreenPos
-      value: -7
+      value: -9
       objectReference: {fileID: 0}
     - target: {fileID: 5855174731209293277, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
       propertyPath: yMaxScreenPos
-      value: 8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5855174731209293277, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
       propertyPath: controlPitchFactor
@@ -149,17 +149,25 @@ PrefabInstance:
       propertyPath: controlRollFactor
       value: -15
       objectReference: {fileID: 0}
+    - target: {fileID: 5855174731209293277, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
+      propertyPath: xMinScreenPos
+      value: -12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5855174731209293277, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
+      propertyPath: xMaxScreenPos
+      value: 12
+      objectReference: {fileID: 0}
     - target: {fileID: 7883225188004756775, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7883225188004756775, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.8
+      value: -8.64
       objectReference: {fileID: 0}
     - target: {fileID: 7883225188004756775, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 19.9
+      value: 15.24
       objectReference: {fileID: 0}
     - target: {fileID: 7883225188004756775, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
       propertyPath: m_LocalRotation.x
