@@ -129,13 +129,33 @@ PrefabInstance:
       propertyPath: XmaxScreenPos
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5855174731209293277, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
+      propertyPath: yMinScreenPos
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5855174731209293277, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
+      propertyPath: yMaxScreenPos
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5855174731209293277, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
+      propertyPath: controlPitchFactor
+      value: -16
+      objectReference: {fileID: 0}
+    - target: {fileID: 5855174731209293277, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
+      propertyPath: positionYawFactor
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5855174731209293277, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
+      propertyPath: controlRollFactor
+      value: -15
+      objectReference: {fileID: 0}
     - target: {fileID: 7883225188004756775, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7883225188004756775, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.8
+      value: -5.8
       objectReference: {fileID: 0}
     - target: {fileID: 7883225188004756775, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
       propertyPath: m_LocalPosition.z
@@ -143,15 +163,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7883225188004756775, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.000000021855694
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7883225188004756775, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7883225188004756775, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7883225188004756775, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
       propertyPath: m_LocalRotation.w

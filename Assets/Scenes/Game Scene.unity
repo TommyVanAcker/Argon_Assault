@@ -659,10 +659,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 993180591294782205, guid: 9990d8077ec081d458ffb0bca8a7edb0, type: 3}
-      propertyPath: xSpeed
-      value: 40
-      objectReference: {fileID: 0}
     - target: {fileID: 8132474524386497184, guid: 9990d8077ec081d458ffb0bca8a7edb0, type: 3}
       propertyPath: circuitObject
       value: 
@@ -673,15 +669,15 @@ PrefabInstance:
       objectReference: {fileID: 441991213}
     - target: {fileID: 8132474524386497185, guid: 9990d8077ec081d458ffb0bca8a7edb0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 3.032035
       objectReference: {fileID: 0}
     - target: {fileID: 8132474524386497185, guid: 9990d8077ec081d458ffb0bca8a7edb0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 1.7066503
       objectReference: {fileID: 0}
     - target: {fileID: 8132474524386497185, guid: 9990d8077ec081d458ffb0bca8a7edb0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0
+      value: 2.1448936
       objectReference: {fileID: 0}
     - target: {fileID: 8132474524386497185, guid: 9990d8077ec081d458ffb0bca8a7edb0, type: 3}
       propertyPath: m_LocalRotation.x
