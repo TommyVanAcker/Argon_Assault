@@ -16,13 +16,8 @@ public class Enemy : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter(Collision other)
+    private void OnParticleCollision(GameObject other)
     {
-        //Debug.Log(other.gameObject.name + "collided with enemey");
-        
-    }
-
-    private void OnTriggerEnter(Collider other) {
-        //Debug.Log(other.gameObject.name + "triggered enemy");
+        Destroy(gameObject);
     }
 }

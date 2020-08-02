@@ -199,6 +199,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 8132474524386497185}
     m_Modifications:
+    - target: {fileID: 3194710643167351214, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
+      propertyPath: CollisionModule.type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3194710643167351214, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
+      propertyPath: CollisionModule.minKillSpeed
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 5958064831847261358, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
       propertyPath: deathFX
       value: 
@@ -250,6 +258,14 @@ PrefabInstance:
     - target: {fileID: 7884926376018461861, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
       propertyPath: m_Name
       value: Player Ship
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078715454613460490, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
+      propertyPath: CollisionModule.type
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9078715454613460490, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
+      propertyPath: CollisionModule.minKillSpeed
+      value: 100
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9b82f4e5bdf552941a192d2be2810282, type: 3}
