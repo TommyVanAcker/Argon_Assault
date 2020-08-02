@@ -1520,6 +1520,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3581192647188132857, guid: 9990d8077ec081d458ffb0bca8a7edb0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3595381969985397637, guid: 9990d8077ec081d458ffb0bca8a7edb0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8132474524386497184, guid: 9990d8077ec081d458ffb0bca8a7edb0, type: 3}
       propertyPath: circuitObject
       value: 
