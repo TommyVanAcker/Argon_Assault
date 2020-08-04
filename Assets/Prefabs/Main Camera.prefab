@@ -15,6 +15,7 @@ MonoBehaviour:
   bullets:
   - {fileID: 8132474525884675725}
   - {fileID: 2411586907180314921}
+  damagePerHit: 10
 --- !u!1 &8132474524386497188
 GameObject:
   m_ObjectHideFlags: 0
