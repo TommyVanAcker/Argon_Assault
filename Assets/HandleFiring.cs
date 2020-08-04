@@ -6,6 +6,7 @@ using UnityEngine;
 public class HandleFiring : MonoBehaviour
 {
     [SerializeField] GameObject[] bullets;
+    [SerializeField] float damagePerHit;
     bool isControlEnabled = true;
     
 
@@ -53,5 +54,10 @@ public class HandleFiring : MonoBehaviour
     void OnPlayerDeath()
     {
         isControlEnabled = false;
+    }
+
+    public float ReceiveDamage()
+    {
+        return damagePerHit;
     }
 }
